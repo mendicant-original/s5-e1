@@ -1,0 +1,63 @@
+-- RMU SESSION 4 EXERCISE 1
+
+If in doubt about how to submit, see SUBMISSION_GUIDELINES file.
+
+In this exercise, you will be building a webservice that wraps two or more
+publicly available web services and mashes them up to do something interesting.
+You could build something that simply aggregates information from a number of
+sources, something that acts as an unified API for querying different services, 
+or something that is a new service entirely but uses other web services behind
+the hood to do the heavy lifting. The choice is up to you. 
+
+This exercise is pretty open ended, but please follow the guidelines listed
+below, as well as a couple examples of what you might build.
+
+== GUIDELINES
+
+- You need to develop two things: An HTTP based web service that interacts with
+  at least two other web services to provide its feature set, and a simple Ruby
+  client library for interacting with your web service.
+
+- You may use any web services online that are freely available. Prefer
+  those with a RESTful API, but even manual scraping via mechanize/nokogiri
+  is acceptable.
+
+- You may use any Ruby libraries/gems you'd like, including projects that are
+  specifically designed for interacting with your target web services. 
+
+- You may use any web framework you'd like for implementing your web service,
+  but it's recommended to consider using either Sinatra or Rails 3.
+
+- Use idiomatic Ruby conventions as much as possible. Throughout the session,
+  writing code well is as important as meeting the requirements. But don't be
+  afraid to ask for help, perfection is not expected in a first submission.
+
+- Try to pick a realistic application, one that someone might actually
+  want to use. Avoid contrived scenarios where possible. Include a
+  good example of how to use your application.
+
+- Avoid duplicating the work of other students. Announce on the mailing list
+  what you're planning to build, and add a description to the student notes 
+  section on the assignment's page in university-web.
+
+== EXAMPLES
+
+- A web service that provides a search API which queries Google, Bing, and Yahoo,
+and then produces a top N list of links by averaging the rankings of search
+results across the three services.
+
+- A web service that accepts short status messages and then posts them
+simultaneously to both Twitter and Facebook.
+
+Please do not use either of these ideas, but building something similar will probably
+make for a good project.
+
+== QUESTIONS?
+
+Hit up the mailing list or IRC. RMU exercises are left deliberately open ended,
+and often benefit from some discussion before, during, and after you work on
+them.
+
+If you have little experience with web programming, please let me know and I'll
+collect some resources for you to get you up to speed. Not a ton of knowledge
+is needed to work through this exercise.
